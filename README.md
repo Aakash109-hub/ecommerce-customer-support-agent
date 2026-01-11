@@ -3,6 +3,9 @@
 
 An AI-powered **Customer Support Agent for the eCommerce industry**, built using **LangChain**, **LangGraph**, **Ollama**, **RAG**, and **Streamlit**.
 
+<img width="1920" height="1020" alt="Screenshot 2026-01-11 152549" src="https://github.com/user-attachments/assets/dd4b3beb-4b46-481c-a223-d06c19a45643" />
+
+
 This project simulates a real-world customer support system capable of handling:
 - 📦 Order tracking
 - 🚚 Shipping queries
@@ -48,12 +51,12 @@ Project/
 │   ├── ticket_store.py       # Ticket persistence
 │   └── tickets.json
 └── rag/
-├── retriever.py          # FAISS retriever loader
-├── vectorstores/         # FAISS indexes
-└── docs/
-├── returns/
-├── shipping/
-└── general/
+    ├── retriever.py          # FAISS retriever loader
+    ├── vectorstores/         # FAISS indexes
+    └── docs/
+       ├── returns/
+       ├── shipping/
+       └── general/
 
 ````
 
@@ -63,7 +66,7 @@ Project/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/ecommerce-customer-support-agent.git
+git clone https://github.com/Aakash109-hub/ecommerce-customer-support-agent.git
 cd ecommerce-customer-support-agent
 ````
 
@@ -106,7 +109,6 @@ streamlit run app.py
 * AI-powered customer support automation
 * RAG-based document Q&A systems
 * AI agent + tool orchestration demos
-* Internship / portfolio project
 
 ---
 
@@ -125,19 +127,3 @@ streamlit run app.py
 **Aakash**
 Aspiring AI/ML Engineer
 Focused on AI Agents, RAG systems, and real-world LLM applications
-
-```
-
----
-
-# 🎯 Next Powerful Upgrades (Optional)
-
-If you want, I can help you:
-1️⃣ Add **architecture diagram**  
-2️⃣ Write **resume bullet points** for this project  
-3️⃣ Prepare **interview explanation** for this project  
-4️⃣ Optimize **prompt for better tool usage**  
-5️⃣ Create a **demo GIF or YouTube script**
-
-Just tell me the number 👍
-```
