@@ -377,4 +377,5 @@ if st.session_state.pending_user_input:
     if st.session_state.thread_id not in st.session_state.chat_threads:
         st.session_state.chat_threads.append(st.session_state.thread_id)
 
+
     st.rerun()
