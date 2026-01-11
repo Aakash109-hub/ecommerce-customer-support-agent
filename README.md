@@ -1,2 +1,143 @@
-# ecommerce-customer-support-agent
-A production-style AI customer support assistant for eCommerce platforms. Built with LangChain + LangGraph, powered by a local Ollama LLM, enhanced with RAG for shipping, return, and FAQ policies, and deployed using Streamlit.
+
+# 🛍️ E-Commerce Customer Support Agent
+
+An AI-powered **Customer Support Agent for the eCommerce industry**, built using **LangChain**, **LangGraph**, **Ollama**, **RAG**, and **Streamlit**.
+
+This project simulates a real-world customer support system capable of handling:
+- 📦 Order tracking
+- 🚚 Shipping queries
+- 🔄 Returns & refunds
+- ❓ General FAQs
+- 🎫 Support ticket creation
+- 📞 Escalation to human agents
+
+---
+
+## 🚀 Tech Stack
+
+- **Python**
+- **LangChain & LangGraph**
+- **Ollama (Local LLM – Qwen)**
+- **FAISS (Vector Store)**
+- **SQLite (Conversation persistence)**
+- **Streamlit (Frontend UI)**
+
+---
+
+## 🧠 Architecture Overview
+
+- **LangGraph** manages agent state, tool routing, and conversation flow
+- **Tools** handle order tracking, returns, tickets, and RAG-based search
+- **RAG** retrieves answers from policy PDFs (Shipping, Returns, FAQs)
+- **SQLite Checkpointing** enables multi-threaded persistent chats
+- **Streamlit UI** provides a clean, chat-style customer support experience
+
+---
+
+## 📂 Project Structure
+
+```
+
+Project/
+├── app.py                    # Streamlit UI
+├── main.py                   # LangGraph agent & workflow
+├── tools.py                  # Tools (orders, returns, RAG, tickets)
+├── prompt.py                 # System prompt
+├── requirements.txt
+├── Storage/
+│   ├── ticket_store.py       # Ticket persistence
+│   └── tickets.json
+└── rag/
+├── retriever.py          # FAISS retriever loader
+├── vectorstores/         # FAISS indexes
+└── docs/
+├── returns/
+├── shipping/
+└── general/
+
+````
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/ecommerce-customer-support-agent.git
+cd ecommerce-customer-support-agent
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Start Ollama & pull model
+
+```bash
+ollama pull qwen3:4b
+ollama run qwen3:4b
+```
+
+### 4️⃣ Run the Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## ✨ Key Features
+
+* 💬 Chat-based customer support interface
+* 🧠 Tool-using AI agent with LangGraph
+* 📄 RAG-powered policy answering from PDFs
+* 🎫 Automatic support ticket creation
+* 🔄 Return initiation workflow
+* 📞 Human escalation support
+* 💾 Persistent chat history with SQLite
+* 🖥️ Modern, responsive UI
+
+---
+
+## 📌 Use Cases
+
+* AI-powered customer support automation
+* RAG-based document Q&A systems
+* AI agent + tool orchestration demos
+* Internship / portfolio project
+
+---
+
+## 🔮 Future Improvements
+
+* Real database integration for orders
+* Authentication & user accounts
+* Admin dashboard for tickets
+* Multi-language support
+* Deployment on cloud (Docker / AWS)
+
+---
+
+## 👤 Author
+
+**Aakash**
+Aspiring AI/ML Engineer
+Focused on AI Agents, RAG systems, and real-world LLM applications
+
+```
+
+---
+
+# 🎯 Next Powerful Upgrades (Optional)
+
+If you want, I can help you:
+1️⃣ Add **architecture diagram**  
+2️⃣ Write **resume bullet points** for this project  
+3️⃣ Prepare **interview explanation** for this project  
+4️⃣ Optimize **prompt for better tool usage**  
+5️⃣ Create a **demo GIF or YouTube script**
+
+Just tell me the number 👍
+```
