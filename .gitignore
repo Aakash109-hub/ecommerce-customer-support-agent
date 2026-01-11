@@ -1,0 +1,19 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Databases
+chatbot.db
+
+# Vector stores (generated)
+rag/vectorstores/
+# Streamlit
+.streamlit/
+
+storage/__pycache__
+
+# OS
+.DS_Store
