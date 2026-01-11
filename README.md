@@ -66,7 +66,7 @@ Project/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Aakash109-hub/ecommerce-customer-support-agent.git
+git clone https://github.com/Aakash109-hub/eCommerce-Customer-Support-Agent.git
 cd ecommerce-customer-support-agent
 ````
 
