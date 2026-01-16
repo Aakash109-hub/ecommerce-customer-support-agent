@@ -26,6 +26,18 @@ The following diagram shows how the AI agent processes user queries using a Lang
 
 ![LangGraph Workflow](assets/workflow.png)
 
+
+## 🎥 Video Demo
+
+Watch a complete demo of the AI agent, including:
+- Workflow explanation
+- Tool execution
+- LangSmith tracing
+- End-to-end query handling
+
+[![AI Agent Demo](https://img.youtube.com/vi/dlsvk0g1UZs/0.jpg)](https://youtu.be/dlsvk0g1UZs)
+
+
 ---
 
 ## 🚀 Tech Stack
